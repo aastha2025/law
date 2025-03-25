@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalPlus - Find Expert Lawyers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0056b3;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .btn {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .hero {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+            background-color: white;
+        }
+        .search-bar input, .search-bar button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search-bar input {
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-bar button {
+            background-color: orange;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        .lawyers {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding-left: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .contact {
+            display: block;
+            background: orange;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">⚖️ LegalPlus</div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Locations</a>
+            <a href="about.html">About</a>
+        </div>
+        <a href="login.html" class="login">Log in</a>
+    </div>
+
+    <div class="hero">
+        <h1>Find Expert Lawyers</h1>
+        <p>Connect with top-rated attorneys specializing in various practice areas to address your legal needs.</p>
+    </div>
+
+    <div class="content">
+        <div class="lawyers">
+            <div class="card">
+                <span class="rating">4.9</span>
+                <img src="Harish Salve.jpeg" alt="Harish Salve" width="50px" height="250px">
+                <h3>Harish Salve</h3>
+                <p><strong>Criminal, Constitutional, and Commercial Law</strong></p>
+                <p>Over 40 years of experience in high-profile legal cases.</p>
+                <p><strong>Cases Won:</strong> Not publicly disclosed.</p>
+                <a href="Harsihprofile.html" class="contact">Contact</a>
+            </div>
+
+            <div class="card">
+                <span class="rating">4.8</span>
+                <img src="Mukul Rohatgi.jpeg">
+                <h3>Mukul Rohatgi</h3>
+                <p><strong>Criminal and Constitutional Law</strong></p>
+                <p>Over 40 years of experience representing high-profile clients.</p>
+                <p><strong>Cases Won:</strong> Not publicly disclosed.</p>
+                <a href="MukulRohtyagiProfile.html" class="contact">Contact</a>
+            </div>
+
+            <div class="card">
+                <span class="rating">4.7</span>
+                <img src="K.T.S. Tulsi.jpeg">
+                <h3>K.T.S. Tulsi</h3>
+                <p><strong>Criminal Law</strong></p>
+                <p>Over 50 years of experience in criminal law and legal reforms.</p>
+                <p><strong>Cases Won:</strong> Not publicly disclosed.</p>
+                <a href="KTSTulsiprofile.html" class="contact">Contact</a>
+            </div>
+
+            <div class="card">
+                <span class="rating">4.6</span>
+                <img src="Sidharth Luthra.jpeg" alt="Sidharth Luthra">
+                <h3>Sidharth Luthra</h3>
+                <p><strong>Criminal Law</strong></p>
+                <p>Over 30 years of experience in criminal defense and cyber law.</p>
+                <p><strong>Cases Won:</strong> Not publicly disclosed.</p>
+                <a href="SiddhartLuthraProfile.html" class="contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
